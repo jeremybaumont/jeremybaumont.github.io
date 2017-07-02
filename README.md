@@ -1,5 +1,8 @@
 # Rodeeend.rocks
 
+## Add blog post
+Add blog post on sources branch
+
 ## Add theme
 ```
 # Make sure you repo is clean first!!!!
