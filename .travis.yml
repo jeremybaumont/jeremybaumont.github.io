@@ -1,6 +1,6 @@
 env:
   global:
-    - secure: "..." # replace by the output from travis encrypt done earlier
+    - secure: "sbPdAwu9ND/dCFLuTQuDBzYgKJphRjkm+rNJn/h4QIZCFjXKCUnNwLj/HRnZJD4+Hs/WMDBbHp1tQhdt0gUnLMqcJtZ8dEmajTyY841gWRlsEkIMxLw6CLOqLO11aKh9XAhcY38/vYQtZAwCOudNwHyNpDi9hc4h5/n7uv9truO+ufOkxmy6LIRb5aJ1wUHUJScVjfIZ5jLPszB9QNjtKp7oLEvnWy9FyqKuTBMNDRkc6cUM58cLRil5dTVDwLkU0UiEKbXG1RbwS0HwjEE6gPz5IVo2WwGloimS6GGA003S6eANVEQJZJUuYerZ+c1JPMuSHwfk9oyhz8ib09P/8SINIkWqUl4TGukMzs6oo4ubhaprgBOX3t526oaH44jkSlDEyCU/AQpzl5+SpMCpzSy+0TO8NWW4dVkeuSCbFNM2IebZDv5fo3QyMHeQTemLhOZ0pch/u3lc5nfM1RHFFCj8ktLN48AVtTpPapOQTArq7fndTlS6m6iidRUGhORmWfioFp2lRWIpfZBmB/iueiywEj916AvLygO3rOKdwr4ib4dofEKU4OhA+XQ/wRZK+FO+8j3v/sGjzHBJogvSvT441X8adN8eLQs7zjBee3JSxGN0p1quyRuwfe68wV5E6Z5x5+6I0EKnzGgdtTNyDICKZcX2BvHcrcEqU9s0XIU=" # replace by the output from travis encrypt done earlier
     - GIT_DEPLOY_DIR=public # this is the default output dir of Hugo
     - GIT_DEPLOY_BRANCH=master # this is the target branch, replace by gh-pages for Project Pages
     - GIT_DEPLOY_USERNAME="Travis CI" # dummy name
