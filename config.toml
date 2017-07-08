@@ -1,4 +1,4 @@
-baseurl = "http://www.rodeeend.rocks"
+baseurl = "https://www.rodeeend.rocks"
 #baseurl             = "https://you.github.io/"
 canonifyurls        = true
 contentdir          = "content"
