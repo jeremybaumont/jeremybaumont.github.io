@@ -19,5 +19,6 @@ install:
 script:
   - hugo # generate!
 after_success:
+  - cp CNAME public/
   - cp .travis.yml public # all branches need this file
   - bash deploy.sh # run the deploy script
