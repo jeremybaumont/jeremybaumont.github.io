@@ -11,8 +11,13 @@ branches:
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
+  - export VER=0.36.1
+  - wget https://github.com/spf13/hugo/releases/download/v${VER}/hugo_${VER}_Linux-64bit.tar.gz
+  - tar xvzf hugo_${VER}_Linux-64bit.tar.gz
+  - mkdir -p $GOPATH/bin
+  - cp hugo_${VER}_linux_amd64/hugo_${VER}_linux_amd64 $GOPATH/bin/hugo
 script:
-  - binaries/hugo # generate!
+  - hugo # generate!
 after_success:
   - cp .travis.yml public # all branches need this file
   - bash deploy.sh # run the deploy script
