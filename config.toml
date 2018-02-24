@@ -1,6 +1,6 @@
 baseurl = "https://www.rodeeend.rocks"
 #baseurl             = "https://you.github.io/"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Jeremy Baumont</a> 2018"
+copyright = "&copy; <a href=\"https://github.com/jeremybaumont\">Jeremy Baumont</a> 2018"
 canonifyurls        = true
 contentdir          = "content"
 languageCode        = "en-US"
