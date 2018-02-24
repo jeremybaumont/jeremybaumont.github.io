@@ -1,59 +1,50 @@
 baseurl = "https://www.rodeeend.rocks"
 #baseurl             = "https://you.github.io/"
+copyright = "&copy; <a href=\"https://github.com/ribice\">Jeremy Baumont</a> 2017"
 canonifyurls        = true
 contentdir          = "content"
 languageCode        = "en-US"
 layoutdir           = "layouts"
 publishdir          = "public"
-theme               = "cocoa"
+theme = "kiss"
 author              = "Jeremy Baumont"
-title               = "Rodeeend rocks"
+title               = "Rodeeend Rocks"
 pygmentsuseclasses  = true
-#disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
 #googleAnalytics     = "UA-123-45"
-
-[permalinks]
-fixed = ":title/"
-blog  = "blog/:slug/"
-
-[[menu.main]]
-name                   = "Blog"
-weight                 = -120
-identifier             = "blog"
-url                    = "/blog/"
-
-[[menu.main]]
-name                   = "About"
-weight                 = -110
-identifier             = "about"
-url                    = "/about/"
-
-[[menu.main]]
-name                   = "Code"
-weight                 = -100
-identifier             = "code"
-url                    = "/code/"
-
-[params]
-latestpostscount       = 5                             # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
-author                 = "Jeremy Baumont"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
-dateform               = "Jan 2, 2006"
-dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Don't panic"
-extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
-faviconfile            = "img/rodeeend.png"
-github = "https://github.com/jeremybaumont"
-twitter = "https://twitter.com/rodeeend"
-highlightjs            = true
-lang                   = "en"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
-highlightjslanguages = ["go", "awk", "bash"]                        # additional languages not included in the "common" set
-highlightjsStyle     = "darcula"
-avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # do not use in the same time as avatar
+disqusShortname = "jeremybaumont"
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
 
 
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "rodeeend"
+github = "jeremybaumont"
+email = "jeremybaumont@gmail.com"
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
