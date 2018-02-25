@@ -12,7 +12,7 @@ title               = "Rodeeend Rocks"
 pygmentsuseclasses  = true
 pluralizelisttitles = false
 #googleAnalytics     = "UA-123-45"
-disqusShortname = "jeremybaumont"
+disqusShortname = "www-rodeeend-rocks"
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
