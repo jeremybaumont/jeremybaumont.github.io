@@ -11,7 +11,7 @@ branches:
 
 install:
   - rm -rf public || exit 0 # cleanup previous run
-  - export VER=0.36.1
+  - export VER=0.55.3
   - wget https://github.com/spf13/hugo/releases/download/v${VER}/hugo_${VER}_Linux-64bit.tar.gz
   - tar xvzf hugo_${VER}_Linux-64bit.tar.gz
   - mkdir -p $GOPATH/bin

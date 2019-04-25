@@ -6,4 +6,4 @@
 	url = git@github.com:mismith0227/hugo_theme_pickles.git
 [submodule "themes/kiss"]
 	path = themes/kiss
-	url = https://github.com/ribice/kiss.git
+	url = git@github.com:ribice/kiss.git
