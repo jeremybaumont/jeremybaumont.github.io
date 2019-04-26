@@ -1,0 +1,48 @@
+baseurl = "https://www.rodeeend.rocks"
+copyright = "&copy; <a href=\"https://github.com/jeremybaumont\">Jeremy Baumont</a> 2019"
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "kiss"
+author              = "Jeremy Baumont"
+title               = "Rodeeend Rocks"
+pygmentsuseclasses  = true
+pluralizelisttitles = false
+disqusShortname     = "www-rodeeend-rocks"
+
+# Number of posts per page
+Paginate            = 5
+enableRobotsTXT     = true
+
+
+[params.assets]
+customCSS           = ["css/custom.css"]
+
+[params.info]
+adsense             = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial        = true # Adds OpenGraph and Twitter cards
+homeTitle           = "" # Title for home page
+poweredby           = true # Adds powered by hugo and kiss below Copyright
+related             = true # Includes related articles at the bottom of the article
+
+
+[params.opengraph.facebook]
+admins              = [] # array of Facebook IDs
+appID               = ""
+pageID              = ""
+
+[params.opengraph.twitter]
+page                = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter             = "rodeeend"
+github              = "jeremybaumont"
+email               = "jeremybaumont@gmail.com"
+
+[taxonomies]
+tag                 = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
